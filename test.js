@@ -32,7 +32,7 @@ var lives = 3;
 function setrandwindspeed(){
  var rand=Math.floor((Math.random() * 20)-10 );
  var windelement = document.getElementById("wind");
- windelement.innerHTML = rand + " ";
+ windelement.innerHTML = -rand + " ";
  windspeed=rand*.15;
 
 }
